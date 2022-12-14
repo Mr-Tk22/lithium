@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url('../img/abt.jpeg');
+  background: url('../img/about.jpg');
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -707,7 +707,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: 80% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -719,6 +718,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   to {
     background-position: 200% center;
   }
+}
+#hero {
+  width: 100%;
+  height: 33%;
+  background: url('../img/hero-bg.jpg');
+  background-size: cover;
+  position: relative;
+
+  /* countdown */
 }
 /*--------------------------------------------------------------
 # Speakers Section
@@ -1692,7 +1700,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .container1 {
   margin: 0 auto;
   text-align: center;
- /* width: 100%;
+  /* width: 100%;
   height: 1000px;
   background: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png") no-repeat center;
   background-size: 250px;
@@ -1726,4 +1734,3 @@ li span {
   display: none;
   padding: 1rem;
 }
-*/
